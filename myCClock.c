@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <time.h> // for sleep () function
-#include <unistd.h>
+//#include <unistd.h>
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
@@ -44,5 +44,7 @@ int main() {
 		
 		sleep(1); //wait 1 second	
 	}
+
+	printf("Always love the time you spend watching time...");
 	return 0;
 }
