@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <time.h> // for sleep () function
-//#include <unistd.h>
+#include <unistd.h>
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
@@ -17,7 +17,7 @@ int main() {
 	{
 		// clear output screen
 		system("cls");
-		printf("\t\t\tWelcome To my clock counter !!!! Enjoy time!!!\n\n");
+		printf("\t\t\tWelcome To my clock counter. Enjoy time!!!\n\n");
 		// print time in HH : MM : SS format
 		printf("\t\t\t\t%02d : %02d : %02d", hour, minute, second);
 		//clear output buffer in gcc
